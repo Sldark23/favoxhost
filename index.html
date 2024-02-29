@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fovax Hosting</title>
+    <style>
+        /* Estilos aqui */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fovax Hosting</h1>
+        <div class="recursos">
+            <p>⚙️ <strong>Recursos Incluídos:</strong></p>
+            <ul id="recursos-list"></ul>
+        </div>
+        <div class="precos">
+            <p><strong>ATENÇÃO TODOS PREÇOS ABAIXO SÃO SOMENTE DA HOSPEDAGEM SAMP BR 🇧🇷</strong></p>
+            <ul id="precos-list"></ul>
+        </div>
+        <div class="whatsapp">
+            <p><strong>Tudo permanente</strong></p>
+            <p>Só vim no contato abaixo</p>
+            <a href="https://wa.me/5544991196893" class="whatsapp-btn">Ir para WhatsApp</a>
+        </div>
+    </div>
+
+    <script src="script.js">
+document.addEventListener('DOMContentLoaded', function() {
+    // Carrega os produtos do arquivo JSON
+    fetch('produtos.json')
+        .then(response => response.json())
+        .then(data => {
+            // Preenche os recursos
+            const recursosList = document.getElementById('recursos-list');
+            data.recursos.forEach(recurso => {
+                const li = document.createElement('li');
+                li.textContent = recurso;
+                recursosList.appendChild(li);
+            });
+
+            // Preenche os preços
+            const precosList = document.getElementById('precos-list');
+            data.precos.forEach(produto => {
+                const li = document.createElement('li');
+                li.textContent = `${produto.descricao} - ${produto.preco} ${produto.moeda}`;
+                precosList.appendChild(li);
+            });
+        })
+        .catch(error => console.error('Erro ao carregar os produtos:', error));
+});
+</script>
+</body>
+</html>
