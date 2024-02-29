@@ -1,0 +1,79 @@
+{
+    "produtos": [
+        {
+            "nome": "50 Slots",
+            "preco": "5,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "100 Slots",
+            "preco": "8,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "150 Slots",
+            "preco": "13,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "200 Slots",
+            "preco": "20,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "250 Slots",
+            "preco": "25,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "300 Slots",
+            "preco": "28,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "350 Slots",
+            "preco": "35,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "400 Slots",
+            "preco": "40,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "500 Slots",
+            "preco": "45,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "550 Slots",
+            "preco": "50,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "600 Slots",
+            "preco": "55,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "650 Slots",
+            "preco": "60,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "700 Slots",
+            "preco": "65,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "750 Slots",
+            "preco": "70,00",
+            "moeda": "R$ BRL"
+        },
+        {
+            "nome": "800 Slots",
+            "preco": "75,00",
+            "moeda": "R$ BRL"
+        }
+    ]
+        }
